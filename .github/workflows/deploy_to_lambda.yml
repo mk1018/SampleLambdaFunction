@@ -9,8 +9,8 @@ on:
 env:
   AWS_LAMBDA_FUNCTION_NAME: SampleLambdaFunction
   AWS_REGION: ap-northeast-1
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_LAMBDA_DEPLOYER_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_LAMBDA_DEPLOYER_SECRET_ACCESS_KEY }}
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   
 jobs:
   deploy:
